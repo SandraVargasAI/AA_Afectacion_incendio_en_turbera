@@ -104,6 +104,7 @@ proyecto/
 ├── src/              # Código reutilizable (opcional)
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
