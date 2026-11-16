@@ -72,7 +72,7 @@
 
 ---
 
-## Descripción del proyecto {#descripción-del-proyecto}
+## Descripción del proyecto
 
 Este proyecto, desarrollado en el marco de la materia Aprendizaje Automático del Politécnico Superior Malvinas Argentinas, busca clasificar la severidad de los incendios en turberas de Sphagnum de Tierra del Fuego (baja, moderada o alta) a partir de sus propiedades fisicoquímicas.
 
@@ -80,13 +80,13 @@ Mediante modelos de aprendizaje automático, se evaluará qué variables aportan
 
 ---
 
-## Objetivos {#objetivos}
+## Objetivos 
 
-### **Objetivo general** {#objetivo-general}
+### **Objetivo general** 
 
 Desarrollar y evaluar modelos de Aprendizaje Automático que clasifiquen la severidad del fuego (Low / Moderate / High) en turberas de Sphagnum de Tierra del Fuego a partir de propiedades fisicoquímicas del suelo, comparando Regresión Logística Multinomial y KNN bajo validación agrupada por turbera, e identificar un subconjunto reducido de variables predictoras que preserve la capacidad de discriminación.
 
-### **Objetivos específicos** {#objetivos-específicos}
+### **Objetivos específicos** 
 
 * Explorar el dataset, analizando las distribuciones de las variables, los valores atípicos y los valores faltantes.  
 * Preprocesar los datos mediante la identificación y tratamiento de valores faltantes, la codificación de variables categóricas y la estandarización de las variables numéricas, según los requerimientos de cada modelo.  
@@ -97,7 +97,7 @@ Desarrollar y evaluar modelos de Aprendizaje Automático que clasifiquen la seve
 
 ---
 
-## Contexto del problema y relevancia {#contexto-del-problema-y-relevancia}
+## Contexto del problema y relevancia 
 
 Las turberas de Sphagnum de Tierra del Fuego acumulan carbono en forma de materia orgánica, y los incendios pueden alterar sus propiedades fisicoquímicas y comprometer esa función. Estimar la severidad del daño suele requerir muestreo de campo y análisis de laboratorio, que son lentos y costosos. Como todos los predictores considerados requieren ensayos de laboratorio, se evaluará la posibilidad de reducir tiempos y costos analíticos al identificar si es factible prescindir de determinaciones específicas de mayor complejidad o costo sin comprometer la precisión de la clasificación de la variable objetivo.
 
@@ -107,7 +107,7 @@ La relevancia del proyecto radica en evaluar qué indicadores aportan mayor info
 
 ---
 
-## Tipo de problema y variable objetivo {#tipo-de-problema-y-variable-objetivo}
+## Tipo de problema y variable objetivo 
 
 Este proyecto se encuadra dentro del aprendizaje automático supervisado. Se trata de un problema de clasificación supervisada multiclase, la variable objetivo se denomina Burn\_Severity y tiene tres categorías a predecir: Low, Moderate y High.
 
@@ -123,7 +123,7 @@ La variable objetivo Burn\_Severity clasifica la severidad del fuego en tres cat
 
 La severidad fue determinada mediante evaluación visual en campo, como parte de un muestreo estratificado según la severidad del incendio y la posición microtopográfica. Por lo tanto, no se calculó a partir de las variables fisicoquímicas utilizadas como predictoras. Esta independencia evita la circularidad y reduce el riesgo de fuga de información (*data leakage*) durante el entrenamiento de los modelos.
 
-### **Distribución de muestras por turbera y severidad** {#distribución-de-muestras-por-turbera-y-severidad}
+### **Distribución de muestras por turbera y severidad** 
 
 | Turbera | Low | Moderate | High | Total |
 | :---- | :---- | :---- | :---- | :---- |
@@ -136,7 +136,7 @@ La severidad fue determinada mediante evaluación visual en campo, como parte de
 | I2 | 10 | 10 | 10 | 30 |
 | **Total** | **71** | **60** | **100** | **231** |
 
-### **Distribución general de las clases** {#distribución-general-de-las-clases}
+### **Distribución general de las clases** 
 
 High       100 muestras · 43.29%
 
@@ -154,7 +154,7 @@ Este procedimiento permite mantener todas las muestras de una misma turbera dent
 
 ---
 
-## Modelos de Aprendizaje Automático y Validación {#modelos-de-aprendizaje-automático-y-validación}
+## Modelos de Aprendizaje Automático y Validación 
 
 | Modelo | Descripción |
 | :---- | :---- |
@@ -182,7 +182,7 @@ Además, la herramienta contibuye  a:
 
 ---
 
-## Fuente de datos {#fuente-de-datos}
+## Fuente de datos 
 
 **Nombre del dataset**: Variables fisico-químicas de turberas después de un incendio forestal.
 
@@ -204,7 +204,7 @@ Link: [https\://datosdeinvestigacion.conicet.gov.ar/handle/11336/284253](https:/
 
 ---
 
-## Estructura del repositorio {#estructura-del-repositorio}
+## Estructura del repositorio 
 
 Organización de carpetas y archivos. Basado en el esquema Cookiecutter Data Science:
 
@@ -229,7 +229,7 @@ proyecto/
 
 ---
 
-## Notebooks del proyecto {#notebooks-del-proyecto}
+## Notebooks del proyecto 
 
 **Notebook Preprocesamiento**  
 El notebook desarrolla la etapa de Análisis Exploratorio de Datos (EDA) y Preprocesamiento para clasificar la severidad de incendios en turberas de Tierra del Fuego (Low, Moderate, High) a partir de variables fisicoquímicas del suelo. El flujo abarca la carga del dataset, la exploración de su estructura y estadísticas descriptivas, el diagnóstico y tratamiento de datos faltantes, la detección de valores atípicos (outliers), el análisis visual de distribuciones y correlaciones (pairplot, heatmap), y finalmente la codificación ordinal de la variable objetivo, dejando los datos listos para el modelado. 
@@ -238,39 +238,39 @@ El notebook desarrolla la etapa de Análisis Exploratorio de Datos (EDA) y Prepr
 Inicia con la preparación, limpiando y transformando los datos para dividirlos en entrenamiento y prueba. Luego, avanzamos al entrenamiento y evaluación, donde ajustamos el algoritmo y validamos su rendimiento mediante métricas clave. A continuación, analizamos la importancia de las variables para identificar qué factores tienen mayor impacto en las predicciones. Finalmente, realizamos una comparación de escenarios para contrastar distintas configuraciones o supuestos, permitiéndonos seleccionar la solución más robusta para tomar decisiones.   
 ---
 
-## Preprocesamiento aplicado {#preprocesamiento-aplicado}
+## Preprocesamiento aplicado
 
-## **Decisiones de limpieza y transformación** {#decisiones-de-limpieza-y-transformación}
+## **Decisiones de limpieza y transformación** 
 
-### **Limpieza de columnas y nombres** {#limpieza-de-columnas-y-nombres}
+### **Limpieza de columnas y nombres** 
 
 * Eliminación de columna: Se elimina la columna `Ntotal` del dataset.  
 * Nombres: Las columnas restantes conservan sus nombres originales (pH, CE, DOB, MO, HD, BD, VWC, GWC, etc.). Se genera una nueva columna llamada `target` para almacenar la variable objetivo codificada.
 
-### **Tratamiento de nulos y faltantes** {#tratamiento-de-nulos-y-faltantes}
+### **Tratamiento de nulos y faltantes** 
 
 * Nulos en `Ntotal`: Se detectó que esta variable presentaba 169 valores nulos (73,16%). Se decidió no imputarlos para evitar sesgos y eliminar la columna completa, reduciendo el dataset de 15 a 14 columnas.  
 * Duplicados: Se verificó que no existen registros duplicados en el DataFrame.  
 * Nulos en el resto de variables: Tras eliminar `Ntotal`, el dataset queda 100% completo (231 filas x 14 columnas) sin valores faltantes en las variables predictoras ni en la variable objetivo.
 
-### **Tratamiento de valores atípicos (Outliers)** {#tratamiento-de-valores-atípicos-(outliers)}
+### **Tratamiento de valores atípicos (Outliers)** 
 
 * Diagnóstico: Se utilizó el método del rango intercuartílico (IQR) con límites de Tukey. Se identificó que CE (Conductividad Eléctrica) tiene un 22,08% de outliers, seguida por BD (9,09%) y VWC (5,63%).  
 * Decisión: No se eliminaron los valores atípicos. Se argumentó que representan variaciones reales de las turberas y efectos genuinos del fuego. En su lugar, se decidió tratarlos durante el escalado aplicando `RobustScaler` (que usa la mediana y el IQR) y una transformación logarítmica (`np.log1p`) para reducir la asimetría, especialmente en CE.
 
-### **Transformación de la variable objetivo** {#transformación-de-la-variable-objetivo}
+### **Transformación de la variable objetivo** 
 
 * Codificación: La variable categórica ordinal `Burn_Severity` (Low, Moderate, High) se transformó a valores numéricos respetando su jerarquía: Low \= 0, Moderate \= 1, High \= 2, almacenados en la columna `target`. Se verificó que no quedaran valores nulos tras el mapeo.
 
 ---
 
-## Variable objetivo y features seleccionadas  {#variable-objetivo-y-features-seleccionadas}
+## Variable objetivo y features seleccionadas  
 
-### **Variable objetivo (Target)** {#variable-objetivo-(target)}
+### **Variable objetivo (Target)** 
 
 \`Burn\_Severity\` (codificada como \*\*\`target\`\*\* para el modelo): Categoría ordinal de la severidad del incendio, con tres niveles: Low (0), Moderate (1) y High (2).
 
-### **Features (variables predictoras) utilizadas** {#features-(variables-predictoras)-utilizadas}
+### **Features (variables predictoras) utilizadas** 
 
 Se seleccionaron 7 variables fisicoquímicas continuas del suelo, excluyendo identificadores, la microtopografía y la variable con datos faltantes \`Ntotal\`:
 
@@ -285,19 +285,19 @@ Se seleccionaron 7 variables fisicoquímicas continuas del suelo, excluyendo ide
 Tras el análisis de importancia, se identificó un subconjunto reducido óptimo de 4 variables: \`BD\`, \`DOB\`, \`MO\` y \`VWC\`, que mantuvo el rendimiento predictivo sin necesidad de medir \`pH\`, \`CE\` ni \`HD\`.  
 ---
 
-## Modelos probados y evaluación {#modelos-probados-y-evaluación}
+## Modelos probados y evaluación 
 
-### **Modelos y evaluación** {#modelos-y-evaluación}
+### **Modelos y evaluación** 
 
 Se compararon dos clasificadores multiclase para predecir la severidad del fuego (Low, Moderate, High): Regresión Logística Multinomial (modelo base, interpretable) y K-Nearest Neighbors (KNN) (basado en proximidad, con ajuste de hiperparámetros). Ambos utilizaron \`RobustScaler\` y transformación \`log1p\` en la variable CE dentro de un \`Pipeline\`, evaluados bajo \*\*validación cruzada agrupada por turbera\*\* (\`StratifiedGroupKFold\` con 4 particiones, usando \`GroupKFold\` como respaldo) para medir la capacidad de generalización a sitios no vistos.
 
-### **Comparación y métricas** {#comparación-y-métricas}
+### **Comparación y métricas** 
 
 El rendimiento se midió principalmente con F1-score macro (por el desbalance moderado de clases), complementado con accuracy, precisión y recall por clase, y matrices de confusión acumuladas. Los resultados muestran un rendimiento prácticamente indistinguible entre ambos modelos (F1 macro ≈ 0,73 ± 0,11–0,14); la Regresión Logística obtuvo una leve ventaja en la estrategia principal (+0,006), mientras que KNN fue más sensible al cambiar la estrategia de partición. Las confusiones se concentran entre clases contiguas (Moderate–High), indicando que ambos modelos capturan el gradiente ordinal pero tienen dificultad con la categoría intermedia.
 
 ---
 
-## Resultados y salidas generadas {#resultados-y-salidas-generadas}
+## Resultados y salidas generadas 
 
 El flujo de modelado confirmó la viabilidad predictiva mediante validación agrupada. Los modelos lograron una exactitud (accuracy) general del 73-75% bajo la estrategia principal (\`StratifiedGroupKFold\`), destacando la Regresión Logística (LogReg) con un F1-macro de 0.737 ± 0.136, ligeramente superior a KNN (0.731 ± 0.106). Al analizar el rendimiento por clase, el modelo demostró una gran capacidad para identificar las severidades extremas: la clase Low obtuvo un excelente F1-score (0.89) y la clase High un rendimiento sólido (0.65 a 0.73), mientras que la clase Moderate representó el mayor desafío (F1 ≈ 0.61), actuando como una categoría de transición difusa.
 
@@ -305,15 +305,14 @@ Las matrices de confusión revelaron que los errores se concentran en las catego
 
 ---
 
-## Video de presentación {#video-de-presentación}
+## Video de presentación 
 
 Link al video de presentación:  
 
-Descripción de como se recorre el video.
 
 ---
 
-## Recomendación {#recomendación}
+## Recomendación 
 
 1. Para el modelado. Se recomienda adoptar LogReg como modelo principal, no por una ventaja significativa de F1 macro (que no la hay: \+0.006, dentro de la sd), sino por su interpretabilidad mediante coeficientes y su menor costo computacional (no requiere GridSearchCV por fold). KNN ofrece un rendimiento equivalente pero añade complejidad de ajuste sin ventaja clara de generalización en este dataset. Si se opta por KNN, se recomienda reportar los hiperparámetros seleccionados por fold (n\_neighbors, metric, weights) para documentar la estabilidad de la elección.  
 2. Para futuros muestreos. Se recomienda priorizar la medición de BD, DOB, MO y VWC y reducir la determinación de pH, CE y HD en muestreos exploratorios o de bajo presupuesto. No obstante, se sugiere mantener las variables excluidas en una submuestra de control para verificar en nuevos sitios que su exclusión no degrada el rendimiento. Esta estrategia permite reducir determinaciones de laboratorio sin cerrar la puerta a recuperar información si aparece una turbera con condiciones atípicas.  
@@ -324,7 +323,7 @@ Descripción de como se recorre el video.
 
 ---
 
-## Limitaciones {#limitaciones}
+## Limitaciones 
 
 1. Solo 7 turberas. La validación agrupada con 4 folds deja 1–2 turberas por test; la estimación de generalización tiene alta varianza (sd ≈ 0.10–0.14 en F1 macro). No se puede afirmar robustez estadística; los resultados son indicativos y deben replicarse con más turberas.  
 2. Estratificación limitada. Con 7 grupos y 3 clases, StratifiedGroupKFold no siempre puede garantizar equilibrio perfecto de clases entre folds. La comparación con GroupKFold mostró que el orden de los modelos puede invertirse según la partición, lo que evidencia esta limitación.  
@@ -334,7 +333,7 @@ Descripción de como se recorre el video.
 
 ---
 
-## Referencia bibliográfica {#referencia-bibliográfica}
+## Referencia bibliográfica 
 
 \[1\] \- Keeley, J. E. (2009). Fire intensity, fire severity and burn severity: A brief review and suggested usage. International Journal of Wildland Fire, 18(1), 116–126. [https\://doi.org/10.1071/WF07049](https://doi.org/10.1071/WF07049?utm_source=chatgpt.com)
 
@@ -342,14 +341,13 @@ Descripción de como se recorre el video.
 
 ---
 
-## Autoría {#autoría}
+## Autoría 
 
 Espacio académico correspondiente a la alumna Sandra Vargas en la asignatura Aprendizaje Automático (dictada por el Lic. Nicolás Caballero), perteneciente al 2do cuatrimestre 2026 de la Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial en la institución Centro Politécnico Superior Malvinas Argentinas.
 
 ---
 
-## Formato Original de Organización de Proyecto \- Cookiecutter {#formato-original-de-organización-de-proyecto---cookiecutter}
-
+## Formato Original de Organización de Proyecto \- Cookiecutter 
 ```
 ├── LICENSE            <- Open-source license if one is chosen
 ├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
