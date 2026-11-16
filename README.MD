@@ -4,7 +4,7 @@
 
 # Tabla de contenidos
 
-[Descripción del proyecto](#descripción-del-proyecto)
+![Descripción del proyecto](#descripción-del-proyecto)
 
 [Objetivos](#objetivos)
 
@@ -307,7 +307,9 @@ Las matrices de confusión revelaron que los errores se concentran en las catego
 
 ## Video de presentación 
 
-Link al video de presentación:  
+Link al Video
+
+https://drive.google.com/file/d/1tLYFyQ6wbdhIYS0Mv7ZgmnLRGeCkbwu5/view?usp=sharing
 
 
 ---
