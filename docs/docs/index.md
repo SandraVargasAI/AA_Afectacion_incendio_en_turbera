@@ -1,10 +1,9 @@
-# AA_Afectacion_incendio_en_turbera documentation!
+# DOCUMENTACIÓN
 
-## Description
+# Clasificación de la afectación de incendios forestales en turberas de Tierra del Fuego mediante indicadores fisicoquímicos del suelo
 
-Proyecto para parcial de AA
+## Descripción
 
-## Commands
+Proyecto desarrollado para la materia de Aprendizaje Automático
 
-The Makefile contains the central entry points for common tasks related to this project.
 
