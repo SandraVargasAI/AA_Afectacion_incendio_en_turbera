@@ -112,4 +112,6 @@ Link: [https\://datosdeinvestigacion.conicet.gov.ar/handle/11336/284253](https:/
 
 \[2\] \- Fulazzaky, M. A., Ismail, I., Harlen, H., Sukendi, Roestamy, M., & Siregar, Y. I. (2022). Evaluation of change in the peat soil properties affected by different fire severities. Environmental Monitoring and Assessment, 194, 783\. [https\://doi.org/10.1007/s10661-022-10430-z](https://doi.org/10.1007/s10661-022-10430-z)
 
-**\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Materia:** Aprendizaje Automático (2C 2026\) \| **Institución:** Centro Politécnico Superior Malvinas Argentinas       **Docente:** Lic. Nicolas Caballero \| **Alumna:** Sandra Vargas 
+**\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
+**Materia:** Aprendizaje Automático (2C 2026\) \| **Institución:** Centro Politécnico Superior Malvinas Argentinas       
+**Docente:** Lic. Nicolas Caballero \| **Alumna:** Sandra Vargas 
