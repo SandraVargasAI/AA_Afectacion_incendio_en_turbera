@@ -225,7 +225,7 @@ proyecto/
 └── README.md
 ```
 
-### **Link al repositorio del proyecto:** [AA\_Afectacion\_incendio\_en\_turbera – GitHub](https://github.com/SandraVargasAI/AA_Afectacion_incendio_en_turbera?utm_source=chatgpt.com). {#link-al-repositorio-del-proyecto:-aa_afectacion_incendio_en_turbera-–-github.}
+### **Link al repositorio del proyecto:** [AA\_Afectacion\_incendio\_en\_turbera – GitHub](https://github.com/SandraVargasAI/AA_Afectacion_incendio_en_turbera?utm_source=chatgpt.com). 
 
 ---
 
