@@ -111,6 +111,7 @@ Repositorio del proyecto: [AA\_Afectacion\_incendio\_en\_turbera – GitHub](htt
 | `data/processed/` | Dataset final preparado para el entrenamiento y evaluación de los modelos. |
 | `docs/` | Documentación del proyecto, diccionario de datos, descripción de variables y metodología. |
 
-**\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Materia:** Aprendizaje Automático (2C 2026\) \| **Institución:** Centro Politécnico Superior Malvinas Argentinas      
+**___________________________________________________________________________________________________________________________________________**
 
+**Materia:** Aprendizaje Automático (2C 2026\) \| **Institución:** Centro Politécnico Superior Malvinas Argentinas       
 **Docente:** Lic. Nicolas Caballero \| **Alumna:** Sandra Vargas 
