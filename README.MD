@@ -115,9 +115,9 @@ Cada registro contiene información sobre la procedencia de la muestra, su clasi
 
 La variable objetivo Burn\_Severity clasifica la severidad del fuego en tres categorías: baja (Low), moderada (Moderate) y alta (High), según el grado de alteración de la vegetación y las propiedades del suelo. La clasificación se fundamenta en los criterios de Keeley (2009) [\[1\]](#referencia-bibliográfica) y Fulazzaky et al. (2022) [\[2\]](#referencia-bibliográfica).
 
-* Baja**:** efectos reducidos del fuego y escasa alteración de la materia orgánica.  
-* Moderada**:** pérdida parcial de materia orgánica y modificaciones intermedias en la vegetación y el suelo.  
-* Alta**:** pérdida importante de materia orgánica y alteraciones significativas del suelo y la vegetación.
+* **Baja:** efectos reducidos del fuego y escasa alteración de la materia orgánica.  
+* **Moderada:** pérdida parcial de materia orgánica y modificaciones intermedias en la vegetación y el suelo.  
+* **Alta:** pérdida importante de materia orgánica y alteraciones significativas del suelo y la vegetación.
 
 La severidad fue determinada mediante evaluación visual en campo, como parte de un muestreo estratificado según la severidad del incendio y la posición microtopográfica. Por lo tanto, no se calculó a partir de las variables fisicoquímicas utilizadas como predictoras. Esta independencia evita la circularidad y reduce el riesgo de fuga de información (*data leakage*) durante el entrenamiento de los modelos.
 
