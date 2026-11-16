@@ -232,6 +232,7 @@ El notebook desarrolla la etapa de Análisis Exploratorio de Datos (EDA) y Prepr
 
 **Notebook Modelado**  
 Inicia con la preparación, limpiando y transformando los datos para dividirlos en entrenamiento y prueba. Luego, avanzamos al entrenamiento y evaluación, donde ajustamos el algoritmo y validamos su rendimiento mediante métricas clave. A continuación, analizamos la importancia de las variables para identificar qué factores tienen mayor impacto en las predicciones. Finalmente, realizamos una comparación de escenarios para contrastar distintas configuraciones o supuestos, permitiéndonos seleccionar la solución más robusta para tomar decisiones.   
+
 ---
 
 ## Preprocesamiento aplicado
@@ -342,8 +343,3 @@ https://drive.google.com/file/d/1tLYFyQ6wbdhIYS0Mv7ZgmnLRGeCkbwu5/view?usp=shari
 ## Autoría 
 
 Espacio académico correspondiente a la alumna Sandra Vargas en la asignatura Aprendizaje Automático (dictada por el Lic. Nicolás Caballero), perteneciente al 2do cuatrimestre 2026 de la Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial en la institución Centro Politécnico Superior Malvinas Argentinas.
-
----
-
-```
-
