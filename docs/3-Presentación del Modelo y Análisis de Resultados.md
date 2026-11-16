@@ -238,6 +238,7 @@ Estructura del repositorio:
 │   ├── f1\_por\_fold.png  
 │   └── importancia\_consenso.png  
 └── README.md  
+
 ---
 
 ## **10\. Cierre**
@@ -249,4 +250,7 @@ El modelo abordó el problema formulado de manera metodológicamente rigurosa: v
 * Un subconjunto de 4 variables {BD, DOB, MO, VWC} preserva la capacidad predictiva, habilitando una reducción técnicamente factible de determinaciones de laboratorio.  
 * La principal limitación es el número de turberas, por lo que se recomienda ampliar el muestreo para consolidar la robustez estadística de las conclusiones.
 
-**\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Materia:** Aprendizaje Automático (2C 2026\) \| **Institución:** Centro Politécnico Superior Malvinas Argentinas       **Docente:** Lic. Nicolas Caballero \| **Alumna:** Sandra Vargas   
+**___________________________________________________________________________________________________________________________________________**
+
+**Materia:** Aprendizaje Automático (2C 2026\) \| **Institución:** Centro Politécnico Superior Malvinas Argentinas       
+**Docente:** Lic. Nicolas Caballero \| **Alumna:** Sandra Vargas 
