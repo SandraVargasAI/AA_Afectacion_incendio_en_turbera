@@ -26,9 +26,7 @@
 
 [Fuente de datos](#fuente-de-datos)
 
-[Estructura del repositorio](#estructura-del-repositorio)
-
-[Link al repositorio del proyecto: AA\_Afectacion\_incendio\_en\_turbera – GitHub.](#link-al-repositorio-del-proyecto:-aa_afectacion_incendio_en_turbera-–-github.)
+[Estructura del repositorio y Link](#estructura-del-repositorio)
 
 [Notebooks del proyecto](#notebooks-del-proyecto)
 
