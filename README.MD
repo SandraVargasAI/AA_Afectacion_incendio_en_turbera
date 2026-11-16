@@ -4,7 +4,7 @@
 
 # Tabla de contenidos
 
-![Descripción del proyecto](#descripción-del-proyecto)
+[Descripción del proyecto](#descripción-del-proyecto)
 
 [Objetivos](#objetivos)
 
