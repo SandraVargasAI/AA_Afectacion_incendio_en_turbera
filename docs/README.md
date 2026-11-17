@@ -12,4 +12,6 @@ Documenta la procedencia de los datos (autora, institución CONICET-CADIC, ubica
 
 Presenta los resultados del modelado: origen de los datos, análisis exploratorio (estadísticas descriptivas, faltantes, duplicados, distribución por turbera y conclusiones del EDA), preprocesamiento aplicado, arquitectura de los modelos (LogReg y KNN con ajuste de hiperparámetros por fold), estrategia de validación (StratifiedGroupKFold principal y GroupKFold de respaldo), métricas de evaluación (accuracy y F1 macro con media ± sd, matrices de confusión, precisión y recall por clase), importancia de variables por consenso ({BD, DOB, MO, VWC}), comparación de escenarios completo vs reducido, interpretación de resultados, conclusiones finales, limitaciones metodológicas, recomendaciones, entregables con enlaces al repositorio Git y cierre.
 
+**Presentación Proyecto Afectación de incendios en turberas TDF.pdf**
 
+Contiene las diapositivas utilizadas en el video.
